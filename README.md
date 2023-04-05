@@ -1,4 +1,4 @@
-# note
+# Note
 
 This is a knowledge of postgraduate study
 
