@@ -14,14 +14,4 @@
 
 ## Lecture 1 : Sampling and Exploratory Data Analysis (EDA)
 
-### code:
-
-```R 
-# install.packages("tidyverse")
-library(tidyverse)
-library(ggplot2)
-library(dplyr)
-``` 
-12123123123
-
 1
