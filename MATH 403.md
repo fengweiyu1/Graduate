@@ -14,4 +14,3 @@
 
 ## Lecture 1 : Sampling and Exploratory Data Analysis (EDA)
 
-1
