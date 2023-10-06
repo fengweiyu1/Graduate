@@ -23,21 +23,13 @@ class Solution:
         return []
     
     def twoSum2(self, nums, target):
-        # create a dictionary to store the values of the array
-        # as keys and the indices as values
-        num_dict = {}
         for i in range(len(nums)):
-            # check if the complement of the current number is in the dictionary
-            complement = target - nums[i]
-            if complement in num_dict:
-                # check if the complement is not the current number
-                if num_dict[complement] != i:
+            for j in range(i+1, len(nums)):
+                # check if the sum of the two numbers is equal to the target
+                if nums[i] + nums[j] == target:
                     # return the indices of the two numbers
-                    return [i, num_dict[complement]]
-            # add the current number to the dictionary
-            num_dict[nums[i]] = i
-                
-        # if no solution is found, return an empty array
+                    return [i, j]
+                 # if all number combinations are checked and no solution is found, return an empty array
         return []
     
 
