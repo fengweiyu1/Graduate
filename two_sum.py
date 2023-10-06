@@ -15,7 +15,7 @@ class Solution:
             complement = target - nums[i]
             if complement in num_dict:
                 # check if the complement is not the current number
-                if num_dict[complement] != i:
+                if num_dict[complement] != i: # this is to prevent using the same number twice
                     # return the indices of the two numbers
                     return [i, num_dict[complement]]
                 
