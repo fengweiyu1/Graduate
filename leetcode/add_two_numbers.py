@@ -10,8 +10,6 @@ Add the two numbers and return the sum as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 """
 
-# 注意：python 代码由 chatGPT🤖 根据我的 java 代码翻译，旨在帮助不同背景的读者理解算法逻辑。
-# 本代码已经通过力扣的测试用例，应该可直接成功提交。
 
 
 # Definition for singly-linked list.
